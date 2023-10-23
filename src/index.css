@@ -1,0 +1,51 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Impact',
+      monospace;
+  }
+  body {
+    background-image: url("background.jpg");
+  }
+  
+  .title {
+    font-size: 75px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-align: center;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px #e3f8df;
+    color: rgb(23, 178, 126);
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    letter-spacing: 1px;
+    color: rgb(23, 178, 126); 
+  }
+  
+  #crypto-select {
+    margin-right: 7px; 
+    font-size: 18px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+    
+  #period-select {
+    font-size: 18px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(23, 178, 126);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    gap: 26px;
+  }
